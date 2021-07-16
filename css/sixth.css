@@ -1,0 +1,51 @@
+@font-face { font-family: OpenSans; font-weight: unset; src: "../scr/font/OpenSans/OpenSans-Regular.ttf"; }
+@font-face { font-family: OpenSans; font-weight: bold; src: "../scr/font/OpenSans/OpenSans-Bold.ttf"; }
+@font-face { font-family: OpenSans; font-weight: bold-italic; src: "../scr/font/OpenSans/OpenSans-BoldItalic.ttf"; }
+@font-face { font-family: OpenSans; font-weight: bolder; src: "../scr/font/OpenSans/OpenSans-ExtraBold.ttf"; }
+@font-face { font-family: OpenSans; font-weight: bolder-italic; src: "../scr/font/OpenSans/OpenSans-ExtraBoldItalic.ttf"; }
+@font-face { font-family: OpenSans; font-weight: italic; src: "../scr/font/OpenSans/OpenSans-Italic.ttf"; }
+@font-face { font-family: OpenSans; font-weight: lighter; src: "../scr/font/OpenSans/OpenSans-Light.ttf"; }
+
+
+
+#box
+{
+	width: 25%;
+	margin-left: 42%;
+}
+h1
+{
+	text-align: center;
+}
+body
+{
+	font-family: OpenSans,sans-serif;
+	font-weight: lighter;
+	color: white;
+	background: #0d1117;
+}
+#details
+{
+	
+}
+input
+{
+	width: 80%;
+	border: 0px;
+	
+	outline: none;
+	apperance :none;
+	display: block;
+	padding: 2px;
+	box-shadow: inset 000	1px;
+	border-radius: 4px;
+}
+button
+{
+	width: 100%;
+	height: 5vh
+}
+button:hover
+{
+	background-color: greenyellow;
+}
