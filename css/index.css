@@ -1,0 +1,89 @@
+@font-face { font-family: OpenSans; font-weight: unset; src: "../scr/font/OpenSans/OpenSans-Regular.ttf"; }
+@font-face { font-family: OpenSans; font-weight: bold; src: "../scr/font/OpenSans/OpenSans-Bold.ttf"; }
+@font-face { font-family: OpenSans; font-weight: bold-italic; src: "../scr/font/OpenSans/OpenSans-BoldItalic.ttf"; }
+@font-face { font-family: OpenSans; font-weight: bolder; src: "../scr/font/OpenSans/OpenSans-ExtraBold.ttf"; }
+@font-face { font-family: OpenSans; font-weight: bolder-italic; src: "../scr/font/OpenSans/OpenSans-ExtraBoldItalic.ttf"; }
+@font-face { font-family: OpenSans; font-weight: italic; src: "../scr/font/OpenSans/OpenSans-Italic.ttf"; }
+
+@keyframes appear
+{
+	from{opacity:0;}
+	to{opacity:1; display: none;}
+}
+@keyframes slideUp
+{
+	from{margin-top:50%;}
+	to{margin-top:0%;}
+}
+@keyframes disappear
+{
+	from{opacity: 1;display: initial;}
+	to{opacity: 0;display: none;}
+}
+body
+{
+	background-color:#0d1117;
+	margin:0px;
+	font-family: OpenSans, sans-serif;
+	
+}
+#logo
+{
+	opacity: 1;
+	top: 50%;
+	color: white;
+	text-align: center;
+	display: block;
+	animation-name: disappear;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	
+	
+}
+
+#para
+{
+
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	color: white;
+	margin-top: 50%;
+	animation-name: slideUp;
+	animation-fill-mode: forwards;
+	animation-duration: 2.5s;
+	animation-delay: 1s;
+}
+#content
+{
+
+}
+button
+{
+	font-family: OpenSans, sans-serif;
+	width: 30%;
+	font-size: 1.5em;
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	border-width: 1px;
+	border-color: transparent;
+	border-radius: 3px;
+
+
+
+}
+#button:hover
+{
+	font-family: OpenSans, sans-serif;
+	width: 30%;	
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-bottom: 1%;
+	border-width: 1px;
+	border-color: orange;
+	color: orange;
+	border-radius: 3px;
+	
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Seventh</title>
+	<script >
+		function act()
+		{
+			
+			
+			var person = window.prompt("Please enter your name");
+			var confirm=window.confirm("Are you sure "+person+" to proceed?");
+			if(confirm)
+			{
+				window.alert("Welcome "+person+" !");
+				text="Hello "+person+", how are you today?";
+				document.getElementById('login').style.display='none';
+				document.getElementById('welcome').innerHTML=text;
+				document.getElementById('welcome').style.display='block';
+
+				
+
+			}
+			else
+			{
+				act();
+			}
+			
+			
+
+		}
+	</script>
+</head>
+<body >
+<button  id="login" onclick="act()" style="margin-left: 25%;margin-right: 25%; width: 50%; display: initial;">Login</button>
+<div id="welcome" style="text-align: center; display: none;">test</div>
+</body>
+</html>
